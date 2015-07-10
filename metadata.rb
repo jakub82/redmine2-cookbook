@@ -14,7 +14,7 @@ depends 'nginx'
 depends 'runit'
 depends 'database', '=2.3.1' # https://github.com/brint/wordpress-cookbook/issues/52#issuecomment-72665257
 depends 'postgresql'
-depends 'mysql', '< 6.0' # before recipes removed
+depends 'mysql' #, '< 6.0' # before recipes removed
 depends 'mysql-chef_gem', '< 1.0' # transitive dependency, before recipes removed
 depends 'sqlite'
 depends 'certificate'
